@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://qa-test.ticto.io",
+  "integrationFolder": "cypress/tests",
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  }
+}
