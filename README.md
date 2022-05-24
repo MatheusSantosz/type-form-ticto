@@ -61,7 +61,7 @@ npx cypress run
 ```
 
 ## :hourglass: CI Github Actions :link:
-[https://github.com/MatheusSantosz/cypress-bootcamp-03/actions](https://github.com/MatheusSantosz/type-form-ticto/actions)
+https://github.com/MatheusSantosz/type-form-ticto/actions
 	
 ## :chart_with_upwards_trend: Report :link:
 https://matheussantosz.github.io/type-form-ticto/	
