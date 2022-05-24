@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-05-24T05:34:14.946Z",
+    "end": "2022-05-24T05:34:24.590Z",
+    "duration": 9644,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d52bb282-eac9-4d38-974a-80616a7482e8",
+      "title": "",
+      "fullFile": "cypress/tests/createUser.spec.js",
+      "file": "cypress/tests/createUser.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "97ab0d68-7d52-4b56-b87d-70a74340bdb3",
+          "title": "Teste Técnico - Analista QA",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Quando eu não inserir dados e clicar no botão Cadastrar, então devo verificar as mensagens de campos obrigatorio",
+              "fullTitle": "Teste Técnico - Analista QA Quando eu não inserir dados e clicar no botão Cadastrar, então devo verificar as mensagens de campos obrigatorio",
+              "timedOut": null,
+              "duration": 3351,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_components.default.naoInserirDados();",
+              "err": {},
+              "uuid": "6712504c-e36e-4c38-864f-d4a38ea0ba6b",
+              "parentUUID": "97ab0d68-7d52-4b56-b87d-70a74340bdb3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Quando eu não inserir email corretamente e clicar no botão Cadastrar, então devo verificar a mensagem no campo de email",
+              "fullTitle": "Teste Técnico - Analista QA Quando eu não inserir email corretamente e clicar no botão Cadastrar, então devo verificar a mensagem no campo de email",
+              "timedOut": null,
+              "duration": 1083,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_components.default.verficaCampoEmail();",
+              "err": {},
+              "uuid": "9300fbcf-20b0-4a90-b927-4b53d9e3ab68",
+              "parentUUID": "97ab0d68-7d52-4b56-b87d-70a74340bdb3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Quando eu inserir os dados corretamente e finalizar o cadastro, então meu cadastro deve aparecer no formulario",
+              "fullTitle": "Teste Técnico - Analista QA Quando eu inserir os dados corretamente e finalizar o cadastro, então meu cadastro deve aparecer no formulario",
+              "timedOut": null,
+              "duration": 1926,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_components.default.inserirDadosSucesso();",
+              "err": {},
+              "uuid": "1c094fd9-1430-4978-a201-654c92a1f52c",
+              "parentUUID": "97ab0d68-7d52-4b56-b87d-70a74340bdb3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Quando eu inserir os dados corretamente devo editar e verificar a mensagem",
+              "fullTitle": "Teste Técnico - Analista QA Quando eu inserir os dados corretamente devo editar e verificar a mensagem",
+              "timedOut": null,
+              "duration": 2195,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_components.default.editarNome();",
+              "err": {},
+              "uuid": "48bc54bc-0624-4ab0-b69e-6d7d69f7ef38",
+              "parentUUID": "97ab0d68-7d52-4b56-b87d-70a74340bdb3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Quando eu editar e salvar o formulario então devo apagar meu Registro",
+              "fullTitle": "Teste Técnico - Analista QA Quando eu editar e salvar o formulario então devo apagar meu Registro",
+              "timedOut": null,
+              "duration": 934,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_components.default.apagarFor();",
+              "err": {},
+              "uuid": "44b7b730-936c-4292-9a06-d0ca1a8f7f09",
+              "parentUUID": "97ab0d68-7d52-4b56-b87d-70a74340bdb3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6712504c-e36e-4c38-864f-d4a38ea0ba6b",
+            "9300fbcf-20b0-4a90-b927-4b53d9e3ab68",
+            "1c094fd9-1430-4978-a201-654c92a1f52c",
+            "48bc54bc-0624-4ab0-b69e-6d7d69f7ef38",
+            "44b7b730-936c-4292-9a06-d0ca1a8f7f09"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9489,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "mochawesome-report",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
