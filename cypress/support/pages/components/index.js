@@ -55,7 +55,6 @@ class Write {
     .type('M TS')
     cy.get("[class='btn btn-primary']").should('be.visible').click({ force: true, multiple: true })
     cy.get(el.alertSucess).contains('Usuário salvo com sucesso.')
-    
    }
 
   apagarFor() {
