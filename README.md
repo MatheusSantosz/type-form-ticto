@@ -1,5 +1,5 @@
 # Type-form-Ticto
-Desafio [tecnico da ticto tecnologia]
+Desafio técnico
 
 ![t](https://user-images.githubusercontent.com/62854319/169957528-82ac0305-ee83-4a6b-ac44-71e6bb7ecf8b.png)
 
