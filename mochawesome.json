@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 2,
-    "start": "2022-05-25T15:34:04.880Z",
-    "end": "2022-05-25T15:34:20.638Z",
-    "duration": 15758,
+    "start": "2022-05-25T15:34:03.690Z",
+    "end": "2022-05-25T15:34:21.462Z",
+    "duration": 17772,
     "testsRegistered": 5,
     "passPercent": 60,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b03f4575-51f7-4a8b-a0f1-0bc652f42198",
+      "uuid": "6a6f035c-a6e3-488c-8233-449a6e0957c3",
       "title": "",
       "fullFile": "cypress/tests/createUser.spec.js",
       "file": "cypress/tests/createUser.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "dcc7375d-9ba4-44a1-a025-afae028a2874",
+          "uuid": "c19d984b-90a4-49f7-b292-b015493056ce",
           "title": "Teste Técnico - Analista QA",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Quando eu não inserir dados e clicar no botão Cadastrar, então devo verificar as mensagens de campos obrigatorio",
               "fullTitle": "Teste Técnico - Analista QA Quando eu não inserir dados e clicar no botão Cadastrar, então devo verificar as mensagens de campos obrigatorio",
               "timedOut": null,
-              "duration": 3012,
+              "duration": 3250,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "_components.default.naoInserirDados();",
               "err": {},
-              "uuid": "d0f013ae-58c2-40c6-9ae2-554fd4b69b84",
-              "parentUUID": "dcc7375d-9ba4-44a1-a025-afae028a2874",
+              "uuid": "ca32f451-1913-4a61-83e3-813dbe2de682",
+              "parentUUID": "c19d984b-90a4-49f7-b292-b015493056ce",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Quando eu não inserir email corretamente e clicar no botão Cadastrar, então devo verificar a mensagem no campo de email",
               "fullTitle": "Teste Técnico - Analista QA Quando eu não inserir email corretamente e clicar no botão Cadastrar, então devo verificar a mensagem no campo de email",
               "timedOut": null,
-              "duration": 957,
+              "duration": 1304,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "_components.default.verficaCampoEmail();",
               "err": {},
-              "uuid": "b58357ea-f71a-4fa4-ae97-ad93616a69ab",
-              "parentUUID": "dcc7375d-9ba4-44a1-a025-afae028a2874",
+              "uuid": "38e330d9-0110-4fbc-abfe-21e82b552872",
+              "parentUUID": "c19d984b-90a4-49f7-b292-b015493056ce",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Quando eu inserir os dados corretamente e finalizar o cadastro, então meu cadastro deve aparecer no formulario",
               "fullTitle": "Teste Técnico - Analista QA Quando eu inserir os dados corretamente e finalizar o cadastro, então meu cadastro deve aparecer no formulario",
               "timedOut": null,
-              "duration": 1814,
+              "duration": 2216,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,8 +83,8 @@
               "context": null,
               "code": "_components.default.inserirDadosSucesso();",
               "err": {},
-              "uuid": "87ccd3b9-84f7-485f-8a23-6bbb869b6e47",
-              "parentUUID": "dcc7375d-9ba4-44a1-a025-afae028a2874",
+              "uuid": "2f1f0c42-22e6-45bb-a17d-0bf30dad7ccc",
+              "parentUUID": "c19d984b-90a4-49f7-b292-b015493056ce",
               "isHook": false,
               "skipped": false
             },
@@ -92,7 +92,7 @@
               "title": "Quando eu inserir os dados corretamente devo editar e verificar a mensagem",
               "fullTitle": "Teste Técnico - Analista QA Quando eu inserir os dados corretamente devo editar e verificar a mensagem",
               "timedOut": null,
-              "duration": 5046,
+              "duration": 5627,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -105,8 +105,8 @@
                 "estack": "CypressError: Timed out retrying after 4100ms: `cy.click()` failed because this element is not visible:\n\n`<input type=\"text\" maxlength=\"255\" id=\"e_name445\" name=\"e_name\" class=\"form-control\" value=\"M T\">`\n\nThis element `<input#e_name445.form-control>` is not visible because its parent `<div#modalEdit445.modal>` has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at runVisibilityCheck (https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:168736:76)\n    at $Cy.ensureStrictVisibility (https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:168752:12)\n    at runAllChecks (https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:154700:14)\n    at retryActionability (https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:154755:16)\n    at tryCatcher (https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:13022:23)\n    at Function.Promise.attempt.Promise.try (https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:10296:29)\n    at whenStable (https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:173835:65)\n    at https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:173290:14\n    at tryCatcher (https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:11139:18)\n    at Promise._fulfill (https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:11083:18)\n    at https://qa-test.ticto.io/__cypress/runner/cypress_runner.js:12697:46\nFrom Your Spec Code:\n    at Write.editarNome (https://qa-test.ticto.io/__cypress/tests?p=cypress/tests/createUser.spec.js:188:30)\n    at Context.eval (https://qa-test.ticto.io/__cypress/tests?p=cypress/tests/createUser.spec.js:254:25)",
                 "diff": null
               },
-              "uuid": "558c3ef8-c9f8-4ffa-b28b-e9c59edd2cdf",
-              "parentUUID": "dcc7375d-9ba4-44a1-a025-afae028a2874",
+              "uuid": "95352f8b-8db3-4e96-ae84-02e53a7c247d",
+              "parentUUID": "c19d984b-90a4-49f7-b292-b015493056ce",
               "isHook": false,
               "skipped": false
             },
@@ -114,7 +114,7 @@
               "title": "Quando eu editar e salvar o formulario então devo apagar meu Registro",
               "fullTitle": "Teste Técnico - Analista QA Quando eu editar e salvar o formulario então devo apagar meu Registro",
               "timedOut": null,
-              "duration": 4720,
+              "duration": 4971,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -127,25 +127,25 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'M TS' within the element: [ <td.text-truncate>, 5 more... ] but never did.\n    at Write.apagarFor (https://qa-test.ticto.io/__cypress/tests?p=cypress/tests/createUser.spec.js:205:32)\n    at Context.eval (https://qa-test.ticto.io/__cypress/tests?p=cypress/tests/createUser.spec.js:257:25)",
                 "diff": null
               },
-              "uuid": "2533e96d-69ae-4032-b29f-074c69ca811e",
-              "parentUUID": "dcc7375d-9ba4-44a1-a025-afae028a2874",
+              "uuid": "90e46cb3-2245-4912-b123-347fe0abc5c0",
+              "parentUUID": "c19d984b-90a4-49f7-b292-b015493056ce",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "d0f013ae-58c2-40c6-9ae2-554fd4b69b84",
-            "b58357ea-f71a-4fa4-ae97-ad93616a69ab",
-            "87ccd3b9-84f7-485f-8a23-6bbb869b6e47"
+            "ca32f451-1913-4a61-83e3-813dbe2de682",
+            "38e330d9-0110-4fbc-abfe-21e82b552872",
+            "2f1f0c42-22e6-45bb-a17d-0bf30dad7ccc"
           ],
           "failures": [
-            "558c3ef8-c9f8-4ffa-b28b-e9c59edd2cdf",
-            "2533e96d-69ae-4032-b29f-074c69ca811e"
+            "95352f8b-8db3-4e96-ae84-02e53a7c247d",
+            "90e46cb3-2245-4912-b123-347fe0abc5c0"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 15549,
+          "duration": 17368,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
