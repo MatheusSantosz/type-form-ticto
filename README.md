@@ -6,7 +6,7 @@ Desafio [tecnico da ticto tecnologia]
 # Test Automation with Cypress + CI using GitHub Actions
 ### Type-form-Ticto
 ---
-Projeto desenvolvido para o desafio o desafio tecnico.
+Projeto desenvolvido para o desafio técnico da Ticto Tecnologia.
 Let's connect? 🤝
 
 [![Linkedin: matheus](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-dos-santos-397004b4/)](https://www.linkedin.com/in/matheus-dos-santos-397004b4/)
